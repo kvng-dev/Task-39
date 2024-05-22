@@ -1,0 +1,388 @@
+body {
+  font-family: "Inter Tight", sans-serif;
+  width: 100%;
+}
+
+.main {
+  position: fixed;
+  width: 100%;
+  height: 100px;
+  z-index: 1;
+  background-color: #ffffffba;
+}
+
+.nav {
+  list-style: none;
+  overflow: hidden;
+  font-size: 14px;
+  font-weight: 500;
+  position: absolute;
+  width: 80%;
+  top: 20px;
+  left: 800px;
+}
+
+li a {
+  text-decoration: none;
+  padding: 20px;
+  text-transform: uppercase;
+  float: left;
+  color: #274079;
+}
+
+.nav-img {
+  top: 20px;
+  position: absolute;
+  left: 25%;
+  top: 50px;
+}
+
+img {
+  width: 150px;
+  background-color: transparent;
+}
+
+.container {
+  color: #274079;
+  position: relative;
+}
+
+.box-one {
+  position: relative;
+  height: 700px;
+}
+
+.text {
+  position: absolute;
+  top: 200px;
+  left: 25%;
+}
+
+.text h2 {
+  width: 40%;
+  font-size: 2.2rem;
+  font-weight: 500;
+  line-height: 45px;
+}
+
+.text p {
+  width: 43%;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.box-img {
+  position: absolute;
+  top: 0;
+  left: 500px;
+}
+
+.box-img img {
+  width: 500px;
+}
+
+button {
+  color: #80f8ae;
+  padding: 16px 50px;
+  border: none;
+  background-color: #274079;
+  font-family: "Inter Tight", sans-serif;
+}
+
+.open-bank {
+  height: 920px;
+  background-color: #e5f4e3;
+  padding: 50px 400px;
+  text-align: center;
+}
+
+.open-bank h3 {
+  font-weight: 500;
+  width: 40%;
+  margin-left: 300px;
+  padding-bottom: 10px;
+  font-size: 1.5rem;
+}
+
+.bank {
+  display: grid;
+  grid-template-columns: 2fr auto;
+  grid-template-rows: 2fr auto;
+  width: 50%;
+  text-align: left;
+}
+
+.bank button {
+  padding: 10px 15px;
+  margin: 40px 0px;
+  font-size: 12px;
+}
+
+.bank p {
+  line-height: 20px;
+  margin: 50px 0;
+  width: 90%;
+}
+
+.bank img {
+  display: inline-;
+  margin-left: 350px;
+}
+
+.data img,
+.regulation img,
+.operation img,
+.api img {
+  position: absolute;
+}
+
+.operation img {
+  left: 40px;
+  top: 5px;
+}
+
+.regulation img,
+.api img {
+  width: 100px;
+  left: 80px;
+  top: 5px;
+}
+
+.data,
+.regulation,
+.operation,
+.api {
+  background-color: white;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px;
+  width: 500px;
+  height: 280px;
+  position: relative;
+}
+
+.recent {
+  background-color: #eae0c7;
+  height: 1000px;
+  position: relative;
+  padding-top: 20px;
+  margin-top: 40px;
+}
+
+.box {
+  background-color: white;
+  width: 300px;
+  height: 300px;
+  padding: 20px 20px;
+  border-radius: 8px;
+  margin: 20px 0;
+}
+
+.one {
+  position: absolute;
+  left: 20%;
+  top: 150px;
+}
+
+.two {
+  position: absolute;
+  left: 40%;
+  top: 150px;
+  background-color: #ff9155;
+  color: white;
+}
+
+.three {
+  position: absolute;
+  left: 60%;
+  top: 150px;
+}
+
+.four {
+  position: absolute;
+  top: 520px;
+  left: 20%;
+}
+
+.five {
+  position: absolute;
+  top: 520px;
+  left: 40%;
+}
+
+.six {
+  position: absolute;
+  top: 520px;
+  left: 60%;
+}
+
+.recent h1 {
+  font-size: 2.5rem;
+  width: 10%;
+  margin-left: 20%;
+}
+
+.moreNews {
+  position: absolute;
+  left: 1400px;
+  top: 930px;
+  text-decoration: none;
+  color: #274079;
+  font-weight: 700;
+}
+
+.read {
+  text-decoration: none;
+  color: #274079;
+  font-size: 12px;
+  position: absolute;
+  top: 200px;
+  font-weight: 500;
+}
+
+.ourdir {
+  text-decoration: none;
+  color: #274079;
+  padding-bottom: 100px;
+  font-weight: 700;
+}
+
+.ready {
+  text-align: center;
+  height: 200px;
+  padding: 100px 0;
+}
+
+.join-open {
+  padding-left: 400px;
+}
+
+.join-open h2 {
+  font-size: 2rem;
+  width: 0px;
+}
+
+.join-open p {
+  font-size: 24px;
+  width: 45%;
+}
+
+.banks-img {
+  position: relative;
+  height: 700px;
+}
+
+.sterling {
+  position: absolute;
+  top: 50px;
+}
+
+.carbon {
+  position: absolute;
+  left: 400px;
+  top: 55px;
+}
+
+.fidelity {
+  position: absolute;
+  left: 800px;
+  top: 50px;
+}
+
+.pwc {
+  position: absolute;
+  top: 200px;
+}
+
+.opay {
+  position: absolute;
+  top: 500px;
+}
+
+.paystack {
+  position: absolute;
+  top: 500px;
+  left: 400px;
+}
+
+.kpmg {
+  position: absolute;
+  top: 230px;
+  left: 400px;
+}
+
+.intersw {
+  position: absolute;
+  top: 230px;
+  left: 800px;
+}
+
+.trans {
+  position: absolute;
+  top: 500px;
+  left: 800px;
+}
+
+footer {
+  background-color: #274079;
+  height: 700px;
+  color: white;
+  position: relative;
+  font-size: 14px;
+}
+
+.form {
+  position: absolute;
+  left: 900px;
+  top: 100px;
+}
+
+input[type="text"] {
+  background-color: transparent;
+  border: 1px solid white;
+  padding: 15px;
+  margin: 0 5px;
+  font-family: "Inter Tight", sans-serif;
+}
+
+input[type="submit"] {
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-family: "Inter Tight", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0 50px;
+}
+
+.obn {
+  position: absolute;
+  top: 100px;
+  left: 200px;
+  width: 22%;
+  line-height: 20px;
+}
+
+.contact {
+  position: absolute;
+  top: 300px;
+  left: 1200px;
+}
+
+.about {
+  position: absolute;
+  top: 300px;
+  left: 200px;
+}
+
+.resource {
+  position: absolute;
+  top: 300px;
+  left: 500px;
+}
+
+.directory {
+  position: absolute;
+  top: 300px;
+  left: 900px;
+}
